@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: url(https://source.unsplash.com/TV2gg2kZD1o/1600x800);
+    background-repeat: no-repeat;
+  }
+.Form_section {
+    position: absolute;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 450px;
+    text-align: center;
+    display: flex;
+    color: white;
+    box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, .2);
+  }
+form {
+    border-radius: 20px;
+    width: 100%;
+    padding: 30px 0;
+    background: rgba(9, 18, 18, 0.5);
+    transition: .2s;
+  }
+input {
+    margin: 15px 0;
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid rgba(10, 180, 180, 1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(20, 20, 20, .2);
+    color: white;
+    outline: none;
+}
+button {
+    border: 1px solid rgba(10, 180, 180, 1);
+    background: rgba(20, 20, 20, .6);
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: .4s;
+}
